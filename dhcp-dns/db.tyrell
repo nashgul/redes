@@ -1,0 +1,13 @@
+$ORIGIN .
+$TTL 86400	; 1 day
+tyrell.local		IN SOA	eldon.tyrell.local. postmaster.tyrell.local. (
+				200811137  ; serial
+				21600      ; refresh (6 hours)
+				3600       ; retry (1 hour)
+				604800     ; expire (1 week)
+				21600      ; minimum (6 hours)
+				)
+			NS	eldon.tyrell.local.
+$ORIGIN tyrell.local.
+eldon			A	10.0.0.1
+

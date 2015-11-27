@@ -1,0 +1,13 @@
+$ORIGIN .
+$TTL 86400	; 1 day
+0.0.10.in-addr.arpa	IN SOA	eldon.0.0.10.in-addr.arpa. postmaster.0.0.10.in-addr.arpa. (
+				200811134  ; serial
+				21600      ; refresh (6 hours)
+				3600       ; retry (1 hour)
+				604800     ; expire (1 week)
+				21600      ; minimum (6 hours)
+				)
+			NS	eldon.tyrell.local.
+$ORIGIN 0.0.10.in-addr.arpa.
+1			PTR	eldon.tyrell.local.
+
